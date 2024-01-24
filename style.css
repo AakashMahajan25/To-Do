@@ -1,60 +1,86 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    transition: 0.35s;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.35s;
 }
 
-html, body {
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: rgba(26, 1, 29, 255);;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
-.main-container {
-    /* display: flex; */
-    justify-content: center;
-    align-items: center; 
-    height: 100vh;
-    width: 100%;
-    height: fit-content;
-    width: fit-content;
-    background-color: aqua;
-    padding-top: 20px;
-    
+img {
+  width: 33.333%;
 }
 
 .heading {
-    font-size: 56px;
-    font-family: 'Roboto', sans-serif;
-    display: block;
+  position: absolute;
+  top: 25%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  font-size: 80px; /* Adjust the font size */
+  font-weight: bold; /* Adjust the font weight */
+}
 
+.main-container {
+position: absolute;
+  top: 25%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  height: fit-content;
+  width: fit-content;
+  background-color: aqua;
+  padding-top: 20px;
+}
+
+.heading {
+  font-size: 56px;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  color: aliceblue;
 }
 
 .input-task {
-    display: block;
-    
+  display: block;
 }
 
 .add-todo {
-    margin: 4px 40px;
-    font-family: 'Roboto', sans-serif;
-    font: bold;
+  margin: 4px 40px;
+  font-family: "Roboto", sans-serif;
+  font: bold;
 }
 
+
 .container {
-    background-color: aqua;
-    font-family: 'Roboto', sans-serif;
-    
+  background-color: aqua;
+  font-family: "Roboto", sans-serif;
 }
 
 .task {
-    display: flex;
+  display: flex;
 }
+
+.background {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: %;
+  /* overflow: hidden; */
+  display: flex;
+}
+
